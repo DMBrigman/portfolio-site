@@ -1,0 +1,34 @@
+.header-top{
+    background-color: ackground: #290a59;
+    background: -moz-linear-gradient(top, #290a59 0%, #650f61 100%);
+    background: -webkit-linear-gradient(top, #290a59 0%,#650f61 100%);
+    background: linear-gradient(to bottom, #290a59 0%,#650f61 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#290a59', endColorstr='#650f61',GradientType=0 );
+}
+
+.heading-top{
+    background-color:#ffffff;
+    border-radius: 5px;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 2.25rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.nav-top{
+    background-color:#ffffff;
+    border-radius: 5px;
+    font-family: 'Fira Sans Condensed', Arial, sans-serif;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.contact{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
