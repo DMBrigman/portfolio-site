@@ -16,13 +16,14 @@
   <body>
     <div class="container-fluid">
         <!--Top of page-->
-        <header class="row header-top">
+        <header class="row">
+            
             <div class="col-12">
-
+            
                 <!--Navigation-->
-                <div class="row">
-                    <h1 class="col heading-top">Deanna Brigman Heine</h1>
-                    <nav class="col nav-top">
+                <div class="row float-nav">
+                    <div class="col heading-top d-flex"><h1 class="align-self-center nav-top-heading">Deanna Brigman Heine</h1></div>
+                    <nav class="col nav-top d-flex align-items-center">
                         <ul class="nav">
                             <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                             <li class="nav-item"><a href="#" class="nav-link">Design</a></li>
@@ -31,18 +32,21 @@
                             <li class="nav-item"><a href="#" class="nav-link">Illustration</a></li>
                         </ul>
                     </nav>
-                    <button class="col-sm-auto contact">Contact</button>
+                    <a href="mailto:me@deannambrigman.com" class="btn btn-success contact d-flex"><span class="align-self-center">Contact</span></a>
                 </div> 
             </div>
             
             <!--header content-->
-            <div class="col-6">
+            <div class="col-4 tagline">
                 <h1>Designer/</h1>
                 <h1>Developer/</h1>
                 <h1>Creative/</h1>
             </div>
-            <div class="col-6">
-                <img src="https://via.placeholder.com/350x150" alt="portrait">
+            <div class=" col-1 swoosh">
+
+            </div>
+            <div class="col portrait-bg">
+                <img class="img-fluid portrait-img" src="images/portrait.png" alt="portrait">
             </div>
         </header>
 

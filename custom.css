@@ -1,5 +1,5 @@
-.header-top{
-    background-color: ackground: #290a59;
+header{
+    background-color: #290a59;
     background: -moz-linear-gradient(top, #290a59 0%, #650f61 100%);
     background: -webkit-linear-gradient(top, #290a59 0%,#650f61 100%);
     background: linear-gradient(to bottom, #290a59 0%,#650f61 100%);
@@ -17,13 +17,24 @@
     margin-bottom: 0;
 }
 
+.float-nav{
+    position:absolute;
+    z-index: 1000;
+    width: 100%;
+}
+
 .nav-top{
     background-color:#ffffff;
     border-radius: 5px;
-    font-family: 'Fira Sans Condensed', Arial, sans-serif;
-    font-size: 1.25rem;
     margin-top: 2rem;
     margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-top-heading {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 2rem;
 }
 
 .contact{
@@ -31,4 +42,33 @@
     margin-right: 1rem;
     margin-left: 1rem;
     border-radius: 5px;
+    border:none;
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.tagline{
+    padding-top:170px;
+}
+
+.tagline h1{
+    color:#ffffff;
+    font-size: 2.5rem;
+}
+
+.swoosh {
+    background-color: #290A59;
+    transform: skew(-14deg);
+    z-index: 100;
+    left:40px;
+    min-width: 100px;
+}
+
+.portrait-bg{
+    background-image: url(images/duotone_background.jpg);
+    background-size: cover;
+}
+
+.portrait-img{
+    padding-top: 80px;
 }
