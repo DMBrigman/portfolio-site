@@ -127,13 +127,13 @@ header{
 }
 
 .fancy-card .card:nth-child(2){
-    background-image: url(http://deannambrigman.com/portfolio/images/flat_graphics.PNG);
+    background-image: url(ui-assets/case-study-notif.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 .fancy-card .card:nth-child(3){
-    background-image: url(eLearning-assets/images/04_design.JPG);
+    background-image: url(eLearning-assets/images/06_course.PNG);
     background-size: cover;
     background-position: center center;
 }
@@ -173,12 +173,8 @@ header{
     background-color: #ffffff;
     padding: 2rem;
     border-radius: 5px;
-    column-count: 2;
-    column-width: 400px;
-    column-gap: 4rem;
-    max-width: 1280px;
+    max-width: 1024px;
     margin: 0px auto;
-    column-rule: 1px solid #2B2B2B;
 }
 
 .text-content h2{
@@ -244,7 +240,7 @@ footer p{
 /*secondary pages*/ 
 
 .tagline-secondary h1{
-    margin-top:130px;
+    margin-top:80px;
     margin-bottom:2rem;
 }
 
@@ -362,7 +358,9 @@ footer p{
    .fancy-card .card{
        min-height:0;
        border:none;
-       border-bottom: 10px solid #000000;
+       border-radius:0;
+       margin-bottom:1rem;
+       min-width: 100px;
    }
 
    .card-body{
