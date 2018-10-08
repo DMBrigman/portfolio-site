@@ -184,6 +184,7 @@ header{
 .text-content h2{
     font-size: 2rem;
     column-span: all;
+    margin-bottom:2rem;
 }
 
 .social{
@@ -260,6 +261,12 @@ footer p{
     width:100%;
     text-decoration: none;
     color:white;
+}
+
+.card-header{
+    background-color: #290A59;
+    color:white;
+    border-bottom: 3px solid #34C89B;
 }
 
 .card-body p{
