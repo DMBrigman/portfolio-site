@@ -250,6 +250,7 @@ footer p{
 }
 
 .double{
+    column-count: 2;
     column-width: 350px;
 }
 
@@ -266,7 +267,7 @@ footer p{
 }
 
 .card-body p{
-    padding:1rem;
+    margin:1rem;
 }
 
 
